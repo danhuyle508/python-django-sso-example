@@ -1,1 +1,1 @@
-web: gunicorn workos_django.wsgi
+web: gunicorn sso.templates.login
