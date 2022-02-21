@@ -1,1 +1,1 @@
-web: python workos_django.wsgi
+web: python workos_django.wsgi.py
