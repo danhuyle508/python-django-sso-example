@@ -1,1 +1,1 @@
-web: python workos_django.wsgi.py
+web: python manage.py runserver
