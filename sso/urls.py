@@ -6,5 +6,5 @@ urlpatterns = [
     path('', views.login, name='login'),
     path('auth', views.auth, name='auth'),
     path('auth/callback', views.auth_callback, name='auth_callback'),
-    url(r'^favicon\.ico$',RedirectView.as_view(url='/static/images/favicon.ico')),
+    url(r'^favicon\.ico$',RedirectView.as_view(url='/sso/static/images/favicon.ico')),
 ]
