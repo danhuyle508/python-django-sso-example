@@ -1,1 +1,1 @@
-web: python workos_django.wsgi
+web: gunicorn workos_django.wsgi
