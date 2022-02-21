@@ -1,1 +1,1 @@
-web: gunicorn ./sso/templates/login:app --log-file -
+web: gunicorn /sso/templates/login:app --log-file -
