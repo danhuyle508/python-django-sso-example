@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: open ./sso/templates/login.html
