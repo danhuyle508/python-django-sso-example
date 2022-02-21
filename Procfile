@@ -1,1 +1,1 @@
-web: open ./sso/templates/login.html
+web: python workos_django.wsgi
