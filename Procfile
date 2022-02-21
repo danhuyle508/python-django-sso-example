@@ -1,1 +1,1 @@
-web: gunicorn login:app --log-file -
+web: gunicorn ./sso/views:app --log-file -
