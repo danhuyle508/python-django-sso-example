@@ -35,7 +35,7 @@ https://docs.djangoproject.com/en/3.1/howto/static-files/#configuring-static-fil
 DEBUG = False
 # DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','https://danle-sso.herokuapp.com/']
 
 
 # Application definition
